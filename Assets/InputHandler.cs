@@ -125,10 +125,11 @@ public class InputHandler : MonoBehaviour
     private Dictionary<SteeringBehaviour, float> getInputPesado()
     {
         Dictionary<SteeringBehaviour, float> map = new Dictionary<SteeringBehaviour, float>();
-        WanderSteeringDel wander = gameObject.AddComponent<WanderSteeringDel>();
-        float wanderWeigth = 1;
+        PursueSteering pursue = gameObject.AddComponent<PursueSteering>();
+        pursue.OriginalTarget = Target;
+        float pursueWeigth = 1;
 
-        map.Add(wander, wanderWeigth);
+        map.Add(pursue, pursueWeigth);
 
         WallAvoidanceSteering wallAvoid = gameObject.AddComponent<WallAvoidanceSteering>();
         map.Add(wallAvoid, 5);

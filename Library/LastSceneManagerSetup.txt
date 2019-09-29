@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/EscenasPruebas/Escena Jugador.unity
+- path: Assets/Scenes/Escana 4 - Pathfinding.unity
   isLoaded: 1
   isActive: 1
