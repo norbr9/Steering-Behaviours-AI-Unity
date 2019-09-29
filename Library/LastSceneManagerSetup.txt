@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/EscenasPruebas/Escena Jugador.unity
+  isLoaded: 1
+  isActive: 1
