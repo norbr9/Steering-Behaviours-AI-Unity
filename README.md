@@ -2,6 +2,7 @@
 
 Implementation of different steerings in a test scenario.
 
+The version of Unity used is 2018.3.14f1.
 
 The following Steerings can be found:
 * Accelerated Steerings
