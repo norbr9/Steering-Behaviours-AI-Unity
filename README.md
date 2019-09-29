@@ -1,6 +1,6 @@
 # Steering Behaviours with Unity
 
-Implementation of diferrent Steerings in a test scenario.
+Implementation of different steerings in a test scenario.
 
 
 The following Steerings can be found:
